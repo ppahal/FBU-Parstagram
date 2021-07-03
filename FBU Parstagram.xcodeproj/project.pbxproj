@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4698AF72269110BE000C2A55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF71269110BE000C2A55 /* AppDelegate.m */; };
+		4698AF75269110BE000C2A55 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF74269110BE000C2A55 /* SceneDelegate.m */; };
+		4698AF78269110BE000C2A55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF77269110BE000C2A55 /* ViewController.m */; };
+		4698AF7B269110BE000C2A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF79269110BE000C2A55 /* Main.storyboard */; };
+		4698AF7D269110C0000C2A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF7C269110C0000C2A55 /* Assets.xcassets */; };
+		4698AF80269110C0000C2A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF7E269110C0000C2A55 /* LaunchScreen.storyboard */; };
+		4698AF83269110C0000C2A55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF82269110C0000C2A55 /* main.m */; };
+		4698AF8D269110C0000C2A55 /* FBU_ParstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF8C269110C0000C2A55 /* FBU_ParstagramTests.m */; };
+		4698AF98269110C0000C2A55 /* FBU_ParstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF97269110C0000C2A55 /* FBU_ParstagramUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4698AF89269110C0000C2A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4698AF65269110BE000C2A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4698AF6C269110BE000C2A55;
+			remoteInfo = "FBU Parstagram";
+		};
+		4698AF94269110C0000C2A55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4698AF65269110BE000C2A55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4698AF6C269110BE000C2A55;
+			remoteInfo = "FBU Parstagram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4698AF6D269110BE000C2A55 /* FBU Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBU Parstagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4698AF70269110BE000C2A55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4698AF71269110BE000C2A55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4698AF73269110BE000C2A55 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4698AF74269110BE000C2A55 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4698AF76269110BE000C2A55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4698AF77269110BE000C2A55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4698AF7A269110BE000C2A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4698AF7C269110C0000C2A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4698AF7F269110C0000C2A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4698AF81269110C0000C2A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4698AF82269110C0000C2A55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4698AF88269110C0000C2A55 /* FBU ParstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBU ParstagramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4698AF8C269110C0000C2A55 /* FBU_ParstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBU_ParstagramTests.m; sourceTree = "<group>"; };
+		4698AF8E269110C0000C2A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4698AF93269110C0000C2A55 /* FBU ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBU ParstagramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4698AF97269110C0000C2A55 /* FBU_ParstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBU_ParstagramUITests.m; sourceTree = "<group>"; };
+		4698AF99269110C0000C2A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4698AF6A269110BE000C2A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF85269110C0000C2A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF90269110C0000C2A55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4698AF64269110BE000C2A55 = {
+			isa = PBXGroup;
+			children = (
+				4698AF6F269110BE000C2A55 /* FBU Parstagram */,
+				4698AF8B269110C0000C2A55 /* FBU ParstagramTests */,
+				4698AF96269110C0000C2A55 /* FBU ParstagramUITests */,
+				4698AF6E269110BE000C2A55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4698AF6E269110BE000C2A55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4698AF6D269110BE000C2A55 /* FBU Parstagram.app */,
+				4698AF88269110C0000C2A55 /* FBU ParstagramTests.xctest */,
+				4698AF93269110C0000C2A55 /* FBU ParstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4698AF6F269110BE000C2A55 /* FBU Parstagram */ = {
+			isa = PBXGroup;
+			children = (
+				4698AF70269110BE000C2A55 /* AppDelegate.h */,
+				4698AF71269110BE000C2A55 /* AppDelegate.m */,
+				4698AF73269110BE000C2A55 /* SceneDelegate.h */,
+				4698AF74269110BE000C2A55 /* SceneDelegate.m */,
+				4698AF76269110BE000C2A55 /* ViewController.h */,
+				4698AF77269110BE000C2A55 /* ViewController.m */,
+				4698AF79269110BE000C2A55 /* Main.storyboard */,
+				4698AF7C269110C0000C2A55 /* Assets.xcassets */,
+				4698AF7E269110C0000C2A55 /* LaunchScreen.storyboard */,
+				4698AF81269110C0000C2A55 /* Info.plist */,
+				4698AF82269110C0000C2A55 /* main.m */,
+			);
+			path = "FBU Parstagram";
+			sourceTree = "<group>";
+		};
+		4698AF8B269110C0000C2A55 /* FBU ParstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				4698AF8C269110C0000C2A55 /* FBU_ParstagramTests.m */,
+				4698AF8E269110C0000C2A55 /* Info.plist */,
+			);
+			path = "FBU ParstagramTests";
+			sourceTree = "<group>";
+		};
+		4698AF96269110C0000C2A55 /* FBU ParstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4698AF97269110C0000C2A55 /* FBU_ParstagramUITests.m */,
+				4698AF99269110C0000C2A55 /* Info.plist */,
+			);
+			path = "FBU ParstagramUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4698AF6C269110BE000C2A55 /* FBU Parstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4698AF9C269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU Parstagram" */;
+			buildPhases = (
+				4698AF69269110BE000C2A55 /* Sources */,
+				4698AF6A269110BE000C2A55 /* Frameworks */,
+				4698AF6B269110BE000C2A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FBU Parstagram";
+			productName = "FBU Parstagram";
+			productReference = 4698AF6D269110BE000C2A55 /* FBU Parstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4698AF87269110C0000C2A55 /* FBU ParstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4698AF9F269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU ParstagramTests" */;
+			buildPhases = (
+				4698AF84269110C0000C2A55 /* Sources */,
+				4698AF85269110C0000C2A55 /* Frameworks */,
+				4698AF86269110C0000C2A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4698AF8A269110C0000C2A55 /* PBXTargetDependency */,
+			);
+			name = "FBU ParstagramTests";
+			productName = "FBU ParstagramTests";
+			productReference = 4698AF88269110C0000C2A55 /* FBU ParstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4698AF92269110C0000C2A55 /* FBU ParstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4698AFA2269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU ParstagramUITests" */;
+			buildPhases = (
+				4698AF8F269110C0000C2A55 /* Sources */,
+				4698AF90269110C0000C2A55 /* Frameworks */,
+				4698AF91269110C0000C2A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4698AF95269110C0000C2A55 /* PBXTargetDependency */,
+			);
+			name = "FBU ParstagramUITests";
+			productName = "FBU ParstagramUITests";
+			productReference = 4698AF93269110C0000C2A55 /* FBU ParstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4698AF65269110BE000C2A55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4698AF6C269110BE000C2A55 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4698AF87269110C0000C2A55 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4698AF6C269110BE000C2A55;
+					};
+					4698AF92269110C0000C2A55 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4698AF6C269110BE000C2A55;
+					};
+				};
+			};
+			buildConfigurationList = 4698AF68269110BE000C2A55 /* Build configuration list for PBXProject "FBU Parstagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4698AF64269110BE000C2A55;
+			productRefGroup = 4698AF6E269110BE000C2A55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4698AF6C269110BE000C2A55 /* FBU Parstagram */,
+				4698AF87269110C0000C2A55 /* FBU ParstagramTests */,
+				4698AF92269110C0000C2A55 /* FBU ParstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4698AF6B269110BE000C2A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698AF80269110C0000C2A55 /* LaunchScreen.storyboard in Resources */,
+				4698AF7D269110C0000C2A55 /* Assets.xcassets in Resources */,
+				4698AF7B269110BE000C2A55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF86269110C0000C2A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF91269110C0000C2A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4698AF69269110BE000C2A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698AF78269110BE000C2A55 /* ViewController.m in Sources */,
+				4698AF72269110BE000C2A55 /* AppDelegate.m in Sources */,
+				4698AF83269110C0000C2A55 /* main.m in Sources */,
+				4698AF75269110BE000C2A55 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF84269110C0000C2A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698AF8D269110C0000C2A55 /* FBU_ParstagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4698AF8F269110C0000C2A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698AF98269110C0000C2A55 /* FBU_ParstagramUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4698AF8A269110C0000C2A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4698AF6C269110BE000C2A55 /* FBU Parstagram */;
+			targetProxy = 4698AF89269110C0000C2A55 /* PBXContainerItemProxy */;
+		};
+		4698AF95269110C0000C2A55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4698AF6C269110BE000C2A55 /* FBU Parstagram */;
+			targetProxy = 4698AF94269110C0000C2A55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4698AF79269110BE000C2A55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4698AF7A269110BE000C2A55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4698AF7E269110C0000C2A55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4698AF7F269110C0000C2A55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4698AF9A269110C0000C2A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4698AF9B269110C0000C2A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4698AF9D269110C0000C2A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU Parstagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-Parstagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4698AF9E269110C0000C2A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU Parstagram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-Parstagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4698AFA0269110C0000C2A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU ParstagramTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-ParstagramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBU Parstagram.app/FBU Parstagram";
+			};
+			name = Debug;
+		};
+		4698AFA1269110C0000C2A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU ParstagramTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-ParstagramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBU Parstagram.app/FBU Parstagram";
+			};
+			name = Release;
+		};
+		4698AFA3269110C0000C2A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU ParstagramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-ParstagramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBU Parstagram";
+			};
+			name = Debug;
+		};
+		4698AFA4269110C0000C2A55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8N568J5H;
+				INFOPLIST_FILE = "FBU ParstagramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PriyaPahal.FBU-ParstagramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FBU Parstagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4698AF68269110BE000C2A55 /* Build configuration list for PBXProject "FBU Parstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4698AF9A269110C0000C2A55 /* Debug */,
+				4698AF9B269110C0000C2A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4698AF9C269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU Parstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4698AF9D269110C0000C2A55 /* Debug */,
+				4698AF9E269110C0000C2A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4698AF9F269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU ParstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4698AFA0269110C0000C2A55 /* Debug */,
+				4698AFA1269110C0000C2A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4698AFA2269110C0000C2A55 /* Build configuration list for PBXNativeTarget "FBU ParstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4698AFA3269110C0000C2A55 /* Debug */,
+				4698AFA4269110C0000C2A55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4698AF65269110BE000C2A55 /* Project object */;
+}
