@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "Parse/Parse.h"
 
 @interface SceneDelegate ()
 
@@ -18,6 +19,26 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    //Accessing Client_Key and App_Id from Keys.plist
+    NSString *path = [[NSBundle mainBundle] pathForResource: @"Keys" ofType: @"plist"];
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile: path];
+    NSString *clientKey = [dict objectForKey: @"Client_Key"];
+    NSString *appId = [dict objectForKey: @"App_Id"];
+    
+//    // Code to initialize Parse
+    // Override point for customization after application launch.
+    ParseClientConfiguration *config = [ParseClientConfiguration   configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+        configuration.applicationId = appId; // <- UPDATE
+        configuration.clientKey = clientKey; // <- UPDATE
+        configuration.server = @"https://parseapi.back4app.com";
+    }];
+
+    [Parse initializeWithConfiguration:config];
+    if (PFUser.currentUser) {
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+            
+            self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"AuthenticatedViewController"];
+        }
 }
 
 

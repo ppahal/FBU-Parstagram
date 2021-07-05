@@ -21,15 +21,23 @@
     NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile: path];
     NSString *clientKey = [dict objectForKey: @"Client_Key"];
     NSString *appId = [dict objectForKey: @"App_Id"];
-    // Override point for customization after application launch.
-    ParseClientConfiguration *config = [ParseClientConfiguration   configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+    
+//    // Code to initialize Parse
+//    // Override point for customization after application launch.
+//    ParseClientConfiguration *config = [ParseClientConfiguration   configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+//        configuration.applicationId = appId; // <- UPDATE
+//        configuration.clientKey = clientKey; // <- UPDATE
+//        configuration.server = @"https://parseapi.back4app.com";
+//    }];
+//
+//    [Parse initializeWithConfiguration:config];
+//
+//    if (PFUser.currentUser) {
+//        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//
+//        self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"AuthenticatedViewController"];
+//    }
 
-                configuration.applicationId = appId; // <- UPDATE
-                                  configuration.clientKey = clientKey; // <- UPDATE
-                configuration.server = @"https://parseapi.back4app.com";
-            }];
-
-            [Parse initializeWithConfiguration:config];
     return YES;
 }
 
@@ -49,6 +57,5 @@
     // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
-
 
 @end

@@ -10,7 +10,6 @@
 		41321A5DE4B9CFE086032FDF /* Pods_FBU_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5638C7B1767BD8C0E00EB039 /* Pods_FBU_Parstagram.framework */; };
 		4698AF72269110BE000C2A55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF71269110BE000C2A55 /* AppDelegate.m */; };
 		4698AF75269110BE000C2A55 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF74269110BE000C2A55 /* SceneDelegate.m */; };
-		4698AF78269110BE000C2A55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF77269110BE000C2A55 /* ViewController.m */; };
 		4698AF7B269110BE000C2A55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF79269110BE000C2A55 /* Main.storyboard */; };
 		4698AF7D269110C0000C2A55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF7C269110C0000C2A55 /* Assets.xcassets */; };
 		4698AF80269110C0000C2A55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4698AF7E269110C0000C2A55 /* LaunchScreen.storyboard */; };
@@ -18,6 +17,14 @@
 		4698AF8D269110C0000C2A55 /* FBU_ParstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF8C269110C0000C2A55 /* FBU_ParstagramTests.m */; };
 		4698AF98269110C0000C2A55 /* FBU_ParstagramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AF97269110C0000C2A55 /* FBU_ParstagramUITests.m */; };
 		4698AFA6269112E5000C2A55 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4698AFA5269112E5000C2A55 /* Keys.plist */; };
+		4698AFAC26912281000C2A55 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFAB26912281000C2A55 /* LoginViewController.m */; };
+		4698AFAF269122A6000C2A55 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFAE269122A6000C2A55 /* TimelineViewController.m */; };
+		4698AFB226922979000C2A55 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFB126922979000C2A55 /* PostCell.m */; };
+		4698AFB526922C16000C2A55 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFB426922C16000C2A55 /* Post.m */; };
+		4698AFB826923AFC000C2A55 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFB726923AFC000C2A55 /* ProfileViewController.m */; };
+		4698AFBB26924230000C2A55 /* ProfileMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFBA26924230000C2A55 /* ProfileMenuViewController.m */; };
+		4698AFBE26935A16000C2A55 /* PostImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFBD26935A16000C2A55 /* PostImageCell.m */; };
+		4698AFC126936AC0000C2A55 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698AFC026936AC0000C2A55 /* CameraViewController.m */; };
 		D8FAFEBA8D98FE9D366B2ACF /* Pods_FBU_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C532C91F77AEF93C9DA3C020 /* Pods_FBU_ParstagramTests.framework */; };
 		F04B13CC7B399F9165861AEB /* Pods_FBU_Parstagram_FBU_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CA64C75628036911A7DA72 /* Pods_FBU_Parstagram_FBU_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +56,6 @@
 		4698AF71269110BE000C2A55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4698AF73269110BE000C2A55 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		4698AF74269110BE000C2A55 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4698AF76269110BE000C2A55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4698AF77269110BE000C2A55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4698AF7A269110BE000C2A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4698AF7C269110C0000C2A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4698AF7F269110C0000C2A55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,6 +68,24 @@
 		4698AF97269110C0000C2A55 /* FBU_ParstagramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBU_ParstagramUITests.m; sourceTree = "<group>"; };
 		4698AF99269110C0000C2A55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4698AFA5269112E5000C2A55 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		4698AFAA26912281000C2A55 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4698AFAB26912281000C2A55 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		4698AFAD269122A6000C2A55 /* TimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		4698AFAE269122A6000C2A55 /* TimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		4698AFB026922979000C2A55 /* PostCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		4698AFB126922979000C2A55 /* PostCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		4698AFB326922C16000C2A55 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		4698AFB426922C16000C2A55 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		4698AFB626923AFC000C2A55 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4698AFB726923AFC000C2A55 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4698AFB926924230000C2A55 /* ProfileMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileMenuViewController.h; sourceTree = "<group>"; };
+		4698AFBA26924230000C2A55 /* ProfileMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileMenuViewController.m; sourceTree = "<group>"; };
+		4698AFBC26935A16000C2A55 /* PostImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostImageCell.h; sourceTree = "<group>"; };
+		4698AFBD26935A16000C2A55 /* PostImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostImageCell.m; sourceTree = "<group>"; };
+		4698AFBF26936AC0000C2A55 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		4698AFC026936AC0000C2A55 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		4698AFC226938F2A000C2A55 /* ParseUI.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ParseUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4698AFC526938F31000C2A55 /* Parse.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = Parse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5638C7B1767BD8C0E00EB039 /* Pods_FBU_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBU_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E64F8F15B6394803C7F3CA /* Pods-FBU Parstagram-FBU ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBU Parstagram-FBU ParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-FBU Parstagram-FBU ParstagramUITests/Pods-FBU Parstagram-FBU ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		92CA64C75628036911A7DA72 /* Pods_FBU_Parstagram_FBU_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBU_Parstagram_FBU_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +137,8 @@
 		3B33AA8E18F38B0E60B0BD23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4698AFC526938F31000C2A55 /* Parse.bundle */,
+				4698AFC226938F2A000C2A55 /* ParseUI.bundle */,
 				5638C7B1767BD8C0E00EB039 /* Pods_FBU_Parstagram.framework */,
 				92CA64C75628036911A7DA72 /* Pods_FBU_Parstagram_FBU_ParstagramUITests.framework */,
 				C532C91F77AEF93C9DA3C020 /* Pods_FBU_ParstagramTests.framework */,
@@ -146,12 +171,13 @@
 		4698AF6F269110BE000C2A55 /* FBU Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				4698AFA926912258000C2A55 /* Controllers */,
+				4698AFA8269121C7000C2A55 /* Models */,
+				4698AFA7269121BC000C2A55 /* Views */,
 				4698AF70269110BE000C2A55 /* AppDelegate.h */,
 				4698AF71269110BE000C2A55 /* AppDelegate.m */,
 				4698AF73269110BE000C2A55 /* SceneDelegate.h */,
 				4698AF74269110BE000C2A55 /* SceneDelegate.m */,
-				4698AF76269110BE000C2A55 /* ViewController.h */,
-				4698AF77269110BE000C2A55 /* ViewController.m */,
 				4698AF79269110BE000C2A55 /* Main.storyboard */,
 				4698AF7C269110C0000C2A55 /* Assets.xcassets */,
 				4698AF7E269110C0000C2A55 /* LaunchScreen.storyboard */,
@@ -180,6 +206,43 @@
 			path = "FBU ParstagramUITests";
 			sourceTree = "<group>";
 		};
+		4698AFA7269121BC000C2A55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4698AFB026922979000C2A55 /* PostCell.h */,
+				4698AFB126922979000C2A55 /* PostCell.m */,
+				4698AFBC26935A16000C2A55 /* PostImageCell.h */,
+				4698AFBD26935A16000C2A55 /* PostImageCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4698AFA8269121C7000C2A55 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4698AFB326922C16000C2A55 /* Post.h */,
+				4698AFB426922C16000C2A55 /* Post.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4698AFA926912258000C2A55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4698AFAA26912281000C2A55 /* LoginViewController.h */,
+				4698AFAB26912281000C2A55 /* LoginViewController.m */,
+				4698AFAD269122A6000C2A55 /* TimelineViewController.h */,
+				4698AFAE269122A6000C2A55 /* TimelineViewController.m */,
+				4698AFB626923AFC000C2A55 /* ProfileViewController.h */,
+				4698AFB726923AFC000C2A55 /* ProfileViewController.m */,
+				4698AFB926924230000C2A55 /* ProfileMenuViewController.h */,
+				4698AFBA26924230000C2A55 /* ProfileMenuViewController.m */,
+				4698AFBF26936AC0000C2A55 /* CameraViewController.h */,
+				4698AFC026936AC0000C2A55 /* CameraViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,7 +254,7 @@
 				4698AF69269110BE000C2A55 /* Sources */,
 				4698AF6A269110BE000C2A55 /* Frameworks */,
 				4698AF6B269110BE000C2A55 /* Resources */,
-				16A743CED94F8B273127EC81 /* [CP] Embed Pods Frameworks */,
+				AF8A3AF5FA28C241CEFD7FEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +292,7 @@
 				4698AF8F269110C0000C2A55 /* Sources */,
 				4698AF90269110C0000C2A55 /* Frameworks */,
 				4698AF91269110C0000C2A55 /* Resources */,
-				1C3E0D76B90D66B0669AA486 /* [CP] Embed Pods Frameworks */,
+				9108F560A34FC8DC642C1FB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,23 +374,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16A743CED94F8B273127EC81 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1AC052E73021DD15E11747BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,7 +396,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1C3E0D76B90D66B0669AA486 /* [CP] Embed Pods Frameworks */ = {
+		9108F560A34FC8DC642C1FB6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -389,6 +435,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AF8A3AF5FA28C241CEFD7FEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBU Parstagram/Pods-FBU Parstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D44F566958981E8592FBDF12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -418,10 +481,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4698AF78269110BE000C2A55 /* ViewController.m in Sources */,
+				4698AFBB26924230000C2A55 /* ProfileMenuViewController.m in Sources */,
+				4698AFAC26912281000C2A55 /* LoginViewController.m in Sources */,
 				4698AF72269110BE000C2A55 /* AppDelegate.m in Sources */,
+				4698AFB826923AFC000C2A55 /* ProfileViewController.m in Sources */,
 				4698AF83269110C0000C2A55 /* main.m in Sources */,
+				4698AFBE26935A16000C2A55 /* PostImageCell.m in Sources */,
+				4698AFC126936AC0000C2A55 /* CameraViewController.m in Sources */,
 				4698AF75269110BE000C2A55 /* SceneDelegate.m in Sources */,
+				4698AFAF269122A6000C2A55 /* TimelineViewController.m in Sources */,
+				4698AFB226922979000C2A55 /* PostCell.m in Sources */,
+				4698AFB526922C16000C2A55 /* Post.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
