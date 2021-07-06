@@ -66,20 +66,15 @@
 
 - (void)didPost:(Post *)post{
     [self.posts insertObject:post atIndex:0];
-    NSLog(@"%@", @"new");
-    NSLog(@"%ld", self.posts.count);
     [self.tableView reloadData];
 }
 
 
 - (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
-    NSLog(@"%@", @"------------");
-    NSLog(@"%ld", indexPath.row);
     PostCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"PostCell" forIndexPath:indexPath];
     Post *post = self.posts[indexPath.row];
-    NSLog(@"%@",post.caption);
     //Set up username
-    cell.usernameLabel.text = post.author.username;
+    cell.usernameLabel.text = [post.author.username lowercaseString];
     NSString *likes = [post.likeCount stringValue];
     cell.likeCount.text = [likes stringByAppendingString:@" Likes"];
     cell.captionLabel.text = post.caption;
@@ -88,8 +83,14 @@
 //    NSString *URLString = post.profileImage;
 //    NSURL *url = [NSURL URLWithString:URLString];
 //    NSData *urlData = [NSData dataWithContentsOfURL:url];
-//    cell.profileView.layer.cornerRadius = cell.profileView.frame.size.width/2;
-//    cell.profileView.clipsToBounds = YES;
+    if(post.profileImage){
+        cell.profileView.file = post.profileImage;
+        [cell.profileView loadInBackground];
+    }else{
+        cell.postView.image = [UIImage imageNamed:@"person.fill"];
+    }
+    cell.profileView.layer.cornerRadius = cell.profileView.frame.size.width/2;
+    cell.profileView.clipsToBounds = YES;
 //    cell.profileView.image = [UIImage imageWithData:urlData];
 //
     //Set up post image
@@ -113,9 +114,7 @@
 }
 
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSLog(@"%@", @"Post count:");
-    NSLog(@"%ld", self.posts.count);
-    return 3;
+    return self.posts.count;
 }
 
 - (IBAction)clickDirectMessages:(id)sender {

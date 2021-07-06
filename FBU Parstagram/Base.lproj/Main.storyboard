@@ -117,7 +117,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ewf-ri-Is8" customClass="TimelineViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bjq-QA-cga">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I9Q-hM-kAC">
@@ -133,8 +133,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="571"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N3v-ab-UoA" customClass="PFImageView">
-                                                    <rect key="frame" x="8" y="8" width="52" height="52"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="N3v-ab-UoA" customClass="PFImageView">
+                                                    <rect key="frame" x="8" y="9.5" width="52" height="49"/>
+                                                    <color key="backgroundColor" red="0.63844780229999998" green="0.57125514369999997" blue="0.78486082729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="N3v-ab-UoA" secondAttribute="height" multiplier="1:1" id="1Z1-7v-142"/>
                                                     </constraints>
@@ -383,8 +385,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pUV-s9-xkG">
-                                <rect key="frame" x="20" y="108" width="98.5" height="98.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pUV-s9-xkG">
+                                <rect key="frame" x="20" y="109.5" width="98.5" height="95.5"/>
+                                <color key="backgroundColor" red="0.63844780229999998" green="0.57125514369999997" blue="0.78486082729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pUV-s9-xkG" secondAttribute="height" multiplier="1:1" id="VH1-83-vC1"/>
                                 </constraints>
@@ -419,6 +423,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                 </state>
+                                <connections>
+                                    <action selector="editProfile:" destination="d33-V6-coz" eventType="touchUpInside" id="eYz-nl-pmq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRf-cW-1nW">
                                 <rect key="frame" x="0.0" y="310.5" width="414" height="22"/>
@@ -431,22 +438,22 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eHG-cp-Qz6">
                                 <rect key="frame" x="0.0" y="332.5" width="414" height="480.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="0.0" id="Mfz-8b-gey">
-                                    <size key="itemSize" width="128" height="128"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Mfz-8b-gey">
+                                    <size key="itemSize" width="112" height="123"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PostImageCell" id="MmI-ML-o2h" customClass="PostImageCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="123"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="3K0-9z-4Qz">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="112" height="123"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GAB-uY-aVz" customClass="PFImageView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="GAB-uY-aVz" customClass="PFImageView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="112" height="123"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -457,6 +464,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <size key="customSize" width="112" height="123"/>
+                                        <connections>
+                                            <outlet property="postView" destination="GAB-uY-aVz" id="m8s-6p-FVS"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -505,17 +516,40 @@
                             <constraint firstItem="LKc-d4-IFY" firstAttribute="width" secondItem="4WP-e2-XGh" secondAttribute="width" id="zuf-4R-yux"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="7S0-KI-5to">
                         <barButtonItem key="leftBarButtonItem" title="@username" id="ash-fm-QeJ">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="ellipsis" catalog="system" id="8D9-aE-33G">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <connections>
-                                <segue destination="on9-6f-e4o" kind="presentation" identifier="ProfileMenuSegue" id="viz-Pg-vUD"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="ellipsis" catalog="system" id="8D9-aE-33G">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="on9-6f-e4o" kind="presentation" identifier="ProfileMenuSegue" id="viz-Pg-vUD"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="camera" id="Sdy-gJ-hhS">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="clickCamera:" destination="d33-V6-coz" id="D5X-N3-1kZ"/>
+                                    <segue destination="nof-Ko-LJo" kind="presentation" identifier="profileToCameraSegue" id="2n4-oQ-rgK"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="bioLabel" destination="UV7-Iw-yTX" id="ykL-mc-VaS"/>
+                        <outlet property="collectionView" destination="eHG-cp-Qz6" id="2ME-kP-xrH"/>
+                        <outlet property="flowLayout" destination="Mfz-8b-gey" id="OIK-xH-h32"/>
+                        <outlet property="followersCount" destination="LKc-d4-IFY" id="BYi-sM-eyK"/>
+                        <outlet property="followingCount" destination="OL4-Pn-dp2" id="rXH-er-BGm"/>
+                        <outlet property="nameLabel" destination="Tkn-0E-Qqi" id="XiL-2T-PDk"/>
+                        <outlet property="postCount" destination="4WP-e2-XGh" id="Glu-fC-G8F"/>
+                        <outlet property="profileView" destination="pUV-s9-xkG" id="YQ5-JZ-jVg"/>
+                        <outlet property="pronounsLabel" destination="8LQ-aG-wpX" id="BuF-Vy-zj7"/>
+                        <outlet property="usernameLabel" destination="ash-fm-QeJ" id="BWh-vI-E3w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J4n-mk-gfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -669,7 +703,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="kFg-jR-5Em"/>
+        <segue reference="2n4-oQ-rgK"/>
         <segue reference="iBd-BG-rFY"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -684,6 +718,7 @@
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="paperplane" catalog="system" width="128" height="118"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="square.grid.3x3" catalog="system" width="128" height="112"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <systemColor name="labelColor">
